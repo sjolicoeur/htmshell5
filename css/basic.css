@@ -1,0 +1,40 @@
+
+nav#sidebar { 
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    right: auto;
+    display: block;
+    background-color : #b9c0c9;
+    width: 260px;
+}
+
+section#shell { 
+    background-color : black;
+    border-left : solid gray 4px;
+    top : 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 260px;
+    position: absolute;   
+}
+
+div#results {
+    padding : 10px;
+    color : lightgray;
+}
+
+div#command { 
+    position: absolute;
+    bottom : 0px;
+    left: 0px;
+    right: 0px;
+    padding: 0px;
+}
+
+div#command input {
+    height: 26px;
+    font-size : 1.1em;
+    width: 99%;
+}
